@@ -1,0 +1,1 @@
+This is a toy in order to run the program on my msp430, you will need to call make load.

@@ -9,7 +9,7 @@
 greenControl:
 	cmp #0, r12
 	jz off
-	bis #64, &P1OUT		;or
+	bis #1, &P1OUT		;or 
 	pop r0
-off:	and #~64, &P1OUT
+off:	and #~1, &P1OUT		;on
 	pop r0

@@ -55,4 +55,3 @@ void __interrupt_vec(WDT_VECTOR) WDT()	/* 250 interrupts/sec */
   // handle blinking   
   timeAdvStateMachines();
 } 
-
